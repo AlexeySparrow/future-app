@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"
+     style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
+     viewBox="0 0 666 700" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
+   
+    .fil0 {fill:black;fill-rule:nonzero}
+   
+  </style></defs>
+    <g><path class="fil0" d="M0 225c-3,121 89,222 208,233 51,5 104,-7 148,-37l16 17c-4,12 -2,26 7,36l190 198c13,13 34,14 48,1l39 -38c13,-13 14,-34 1,-47l-190 -198c-9,-10 -23,-13 -35,-9l-16 -17c31,-43 46,-95 43,-147 -6,-120 -104,-214 -224,-217 -127,-3 -232,98 -235,225zm234 -208c112,2 202,90 208,201 3,57 -14,104 -48,148l34 36c9,-5 18,-10 27,-1l190 198c6,7 6,18 -1,24l-39 38c-7,6 -17,6 -24,-1l-190 -198c-8,-9 -3,-18 2,-27l-34 -36c-46,32 -94,48 -150,43 -110,-11 -194,-106 -192,-217 2,-117 100,-211 217,-208zm-143 210c-2,77 59,140 136,142 76,1 140,-60 142,-136 1,-77 -60,-141 -136,-142 -77,-2 -141,59 -142,136zm141 -119c68,1 121,57 120,124 -2,68 -58,121 -125,120 -67,-2 -121,-58 -119,-125 1,-67 57,-121 124,-119z"/></g>
+</svg>

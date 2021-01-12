@@ -1,7 +1,7 @@
 @import "../../../variables";
 
 .pagination {
-  @include size(50%, 8%);
+  @include size(80%, 8%);
   @include flex(row, space-between, center);
 
   margin: 20px 0;

@@ -1,6 +1,6 @@
 @import "../../variables";
 
 .table {
-    @include size(50%, auto);
+    @include size(80%, auto);
     @extend %box;
 }

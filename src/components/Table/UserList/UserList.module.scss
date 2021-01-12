@@ -1,7 +1,7 @@
 @import "../../../variables";
 
 .userList {
-  @include size(50%, auto);
+  @include size(80%, auto);
   @include flex(column, center, flex-start);
   @extend %box;
 

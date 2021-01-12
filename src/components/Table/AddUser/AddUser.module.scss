@@ -1,7 +1,7 @@
 @import "../../../variables";
 
 .addUser {
-    @include size(50%, 12vh);
+    @include size(80%, 12vh);
     @include flex(row, space-between, center);
     @extend %box;
 

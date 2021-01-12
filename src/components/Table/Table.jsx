@@ -1,4 +1,4 @@
-import style from "./Table.module.css";
+import style from "./Table.module.scss";
 import ContactsTableContainer from "./Contacts/ContactsTableContainer";
 import UpPanel from "./UpPanel/UpPanel";
 import Pagination from "./Pagination/Pagination";
@@ -12,7 +12,7 @@ const Table = () => {
         <>
             <UpPanel/>
             <AddUserContainer/>
-            <table className={style.container}>
+            <table className={style.table}>
                 <TitleTableContainer/>
                 <ContactsTableContainer/>
             </table>

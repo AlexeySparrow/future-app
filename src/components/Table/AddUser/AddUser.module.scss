@@ -1,16 +1,11 @@
-.container {
-    width: 50%;
-    height: 12vh;
-    overflow: hidden;
+@import "../../../variables";
 
+.addUser {
+    @include size(50%, 12vh);
+    @include flex(row, space-between, center);
+    @extend %box;
+
+    overflow: hidden;
     padding: 15px;
     margin: 0 0 20px 0;
-
-    border: 2px solid black;
-    box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2);
-    background: rgba(215, 217, 112, 0.5);
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }

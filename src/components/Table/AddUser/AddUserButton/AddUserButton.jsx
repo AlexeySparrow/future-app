@@ -1,4 +1,4 @@
-import style from './AddUserButton.module.css';
+import style from './AddUserButton.module.scss';
 
 const AddUserButton = (props) => {
 

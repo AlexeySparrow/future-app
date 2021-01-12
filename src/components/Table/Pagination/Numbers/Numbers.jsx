@@ -1,4 +1,4 @@
-import style from "./Numbers.module.css";
+import style from "./Numbers.module.scss";
 import ButtonNextContainer from "../ButtonNext/ButtonNextContainer";
 import ButtonPrevContainer from "../ButtonPrev/ButtonPrevContainer";
 import React from 'react';

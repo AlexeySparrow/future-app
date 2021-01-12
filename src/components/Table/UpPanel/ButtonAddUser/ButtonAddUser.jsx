@@ -1,4 +1,4 @@
-import style from './ButtonAddUser.module.css';
+import style from './ButtonAddUser.module.scss';
 import buttonAdd from '../../../../assets/img/plus.svg'
 
 const ButtonAddUser = (props) => {

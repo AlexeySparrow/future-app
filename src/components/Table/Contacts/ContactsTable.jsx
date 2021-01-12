@@ -1,4 +1,4 @@
-import style from "./ContactsTable.module.css";
+import style from "./ContactsTable.module.scss";
 
 const ContactsTable = (props) => {
 

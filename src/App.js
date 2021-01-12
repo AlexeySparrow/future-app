@@ -1,4 +1,4 @@
-import style from './app.module.css';
+import style from './app.module.scss';
 import Table from "./components/Table/Table";
 import SelectData from "./components/SelectData/SelectData";
 import {Route} from 'react-router-dom';

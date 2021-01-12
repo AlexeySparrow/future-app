@@ -1,4 +1,4 @@
-import style from "./ButtonSearch.module.css";
+import style from "./ButtonSearch.module.scss";
 import buttonSearch from "../../../../assets/img/search.svg";
 
 const ButtonSearch = (props) => {

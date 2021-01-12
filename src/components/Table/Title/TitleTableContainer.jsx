@@ -41,7 +41,8 @@ let mapStateToProps = (state) => {
     return {
         tablePage: state.tablePage,
         directionSort: state.tablePage.directionSort,
-        fieldArrow: state.tablePage.fieldArrow
+        fieldArrow: state.tablePage.fieldArrow,
+        titleTable: state.tablePage.titleTable
     }
 }
 

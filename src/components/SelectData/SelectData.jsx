@@ -1,10 +1,10 @@
-import style from './SelectData.module.css';
+import style from './SelectData.module.scss';
 import SelectDataBtnContainer from "./SelectDataBtn/SelectDataBtnContainer";
 
 const SelectData = () => {
     return (
-        <div className={style.container}>
-            <h1 className={style.title}>select dataset:</h1>
+        <div className={style.selectData}>
+            <h1>select dataset:</h1>
             <SelectDataBtnContainer/>
         </div>
     )

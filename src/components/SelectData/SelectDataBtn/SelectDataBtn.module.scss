@@ -1,23 +1,12 @@
+@import "../../../variables";
+
 .selectBtn {
-    display: flex;
-}
+  display: flex;
 
-.selectBtn a {
-    display: block;
-    width: 200px;
+  a {
+    @include size(200px, 6vh);
+    @extend %button;
 
-    margin: 30px 10px 0 10px;
-    padding: 8px 0;
-
-    border: 2px solid black;
-    text-align: center;
-    font-size: 20px;
-}
-
-.selectBtn a:hover {
-    background: rgba(242, 246, 0, 0.5);
-}
-
-.selectBtn a:active {
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    margin: 20px 10px;
+  }
 }

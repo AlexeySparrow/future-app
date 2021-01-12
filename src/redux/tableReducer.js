@@ -38,6 +38,13 @@ const CURRENT_BLOCK_ROWS = 'CURRENT_BLOCK_ROWS';
 
 let initialState = {
     users: [], //Array users
+    titleTable: [
+        {type: 'id',name: 'Id'},
+        {type: 'firstName',name: 'First Name'},
+        {type: 'lastName',name: 'Last Name'},
+        {type: 'email',name: 'Email'},
+        {type: 'phone',name: 'Phone'}
+    ],
 
     newRequestSearch: '', //input search in table page to display letters
     onSearch: '', //string search

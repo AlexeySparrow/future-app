@@ -1,4 +1,4 @@
-import style from './DownloadRing.module.css';
+import style from './DownloadRing.module.scss';
 
 const DownloadRing = () => {
     return (

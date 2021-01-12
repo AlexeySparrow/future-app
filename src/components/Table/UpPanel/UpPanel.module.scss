@@ -1,9 +1,8 @@
+@import "../../../variables";
+
 .upPanel {
-    width: 50%;
-    height: 8%;
+    @include size(50%, 8%);
+    @include flex(row, space-between, center);
 
     margin: 20px 0 20px 0;
-
-    display: flex;
-    justify-content: space-between;
 }

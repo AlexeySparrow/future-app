@@ -1,4 +1,4 @@
-import style from "./ButtonPrev.module.css";
+import style from "./ButtonPrev.module.scss";
 import arrow from "../../../../assets/img/arrow.svg";
 
 const ButtonPrev = (props) => {

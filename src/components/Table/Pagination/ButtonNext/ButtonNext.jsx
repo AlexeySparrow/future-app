@@ -1,4 +1,4 @@
-import style from "./ButtonNext.module.css";
+import style from "./ButtonNext.module.scss";
 import arrow from "../../../../assets/img/arrow.svg";
 
 const ButtonNext = (props) => {
@@ -8,7 +8,7 @@ const ButtonNext = (props) => {
                 onClick={() => props.setCurrentButton(props.currentButton === props.arrayNumbers.length
                     ? props.currentButton
                     : props.currentButton + 1)}>
-            <img src={arrow} alt="next" className={style.next}/>
+            <img src={arrow} alt="next"/>
         </button>
     )
 }

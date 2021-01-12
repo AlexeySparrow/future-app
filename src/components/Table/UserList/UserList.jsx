@@ -1,4 +1,4 @@
-import style from './UserList.module.css';
+import style from './UserList.module.scss';
 
 const UserList = (props) => {
 
@@ -9,7 +9,7 @@ const UserList = (props) => {
 
 
     return (
-        <div className={style.container}>
+        <div className={style.userList}>
             <div>User: <span> {props.rowUser.firstName} {props.rowUser.lastName} </span></div>
             <div>Description: <span> {props.rowUser.description} </span></div>
             <div>Address: <span> {addressStreet} </span></div>

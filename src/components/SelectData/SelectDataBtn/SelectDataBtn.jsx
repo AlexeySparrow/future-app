@@ -1,4 +1,4 @@
-import style from './SelectDataBtn.module.css';
+import style from './SelectDataBtn.module.scss';
 import {NavLink} from "react-router-dom";
 
 const SelectDataBtn = (props) => {

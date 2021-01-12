@@ -1,4 +1,4 @@
-import style from './AddUser.module.css';
+import style from './AddUser.module.scss';
 import WriteTextContainer from "./WriteText/WriteTextContainer";
 import AddUserButtonContainer from "./AddUserButton/AddUserButtonContainer";
 
@@ -6,7 +6,7 @@ const AddUser = (props) => {
 
     if (props.openPanelAddUser) {
         return (
-            <div className={style.container}>
+            <div className={style.addUser}>
                 <WriteTextContainer/>
                 <AddUserButtonContainer/>
             </div>

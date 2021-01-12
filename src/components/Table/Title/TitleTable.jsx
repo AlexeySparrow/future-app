@@ -1,4 +1,4 @@
-import style from "./TitleTable.module.css";
+import style from "./TitleTable.module.scss";
 import ArrowContainer from "./Arrow/ArrowContainer";
 
 const TitleTable = (props) => {
@@ -6,36 +6,16 @@ const TitleTable = (props) => {
     return (
         <thead>
         <tr className={style.titleTable}>
-            <th onClick={() => {
-                props.fieldSortArrow('id')
-            }}>
-                {props.fieldArrow === 'id' ? <ArrowContainer/> : null}
-                Id
-            </th>
-            <th onClick={() => {
-                props.fieldSortArrow('firstName')
-            }}>
-                {props.fieldArrow === 'firstName' ? <ArrowContainer/> : null}
-                First Name
-            </th>
-            <th onClick={() => {
-                props.fieldSortArrow('lastName')
-            }}>
-                {props.fieldArrow === 'lastName' ? <ArrowContainer/> : null}
-                Last Name
-            </th>
-            <th onClick={() => {
-                props.fieldSortArrow('email')
-            }}>
-                {props.fieldArrow === 'email' ? <ArrowContainer/> : null}
-                Email
-            </th>
-            <th onClick={() => {
-                props.fieldSortArrow('phone')
-            }}>
-                {props.fieldArrow === 'phone' ? <ArrowContainer/> : null}
-                Phone
-            </th>
+            {
+                props.titleTable.map((title, index) =>
+                    <th onClick={() => {
+                        props.fieldSortArrow(title.type)
+                    }} key={index}>
+                        {props.fieldArrow === title.type ? <ArrowContainer/> : null}
+                        {title.name}
+                    </th>
+                )
+            }
         </tr>
         </thead>
     )

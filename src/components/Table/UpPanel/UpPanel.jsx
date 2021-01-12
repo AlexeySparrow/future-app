@@ -1,4 +1,4 @@
-import style from "./UpPanel.module.css";
+import style from "./UpPanel.module.scss";
 import SearchContainer from "./Search/SearchContainer";
 import ButtonAddUserContainer from "./ButtonAddUser/ButtonAddUserContainer";
 import ButtonSearchContainer from "./ButtonSearch/ButtonSearchContainer";

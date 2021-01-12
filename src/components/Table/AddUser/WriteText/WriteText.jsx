@@ -1,4 +1,4 @@
-import style from './WriteText.module.css';
+import style from './WriteText.module.scss';
 
 const WriteText = (props) => {
 
@@ -24,48 +24,43 @@ const WriteText = (props) => {
     }
 
     return (
-        <div className={style.container}>
-            <div className={style.box}>
+        <div className={style.writeText}>
+            <div>
                 <label> Id </label>
-                <input className={style.input}
-                       type="number"
+                <input type="number"
                        placeholder='write in...'
                        value={props.tablePage.newTextPageAddUserId}
                        onChange={onNewIdChange}
                 />
             </div>
-            <div className={style.box}>
+            <div>
                 <label> First Name </label>
-                <input className={style.input}
-                       type="text"
+                <input type="text"
                        placeholder='write in...'
                        value={props.tablePage.newTextPageAddUserFirstName}
                        onChange={onNewFirstNameChange}
                 />
 
             </div>
-            <div className={style.box}>
+            <div>
                 <label> Last Name </label>
-                <input className={style.input}
-                       type="text"
+                <input type="text"
                        placeholder='write in...'
                        value={props.tablePage.newTextPageAddUserLastName}
                        onChange={onNewLastNameChange}
                 />
             </div>
-            <div className={style.box}>
+            <div>
                 <label> Email </label>
-                <input className={style.input}
-                       type="email"
+                <input type="email"
                        placeholder='write in...'
                        value={props.tablePage.newTextPageAddUserEmail}
                        onChange={onNewEmailChange}
                 />
             </div>
-            <div className={style.box}>
+            <div>
                 <label> Phone </label>
-                <input className={style.input}
-                       type="tel"
+                <input type="tel"
                        placeholder='write in...'
                        value={props.tablePage.newTextPageAddUserPhone}
                        onChange={onNewPhoneChange}

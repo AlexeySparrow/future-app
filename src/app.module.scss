@@ -1,12 +1,10 @@
-/*
+@import "variables";
+
 .wrapper {
     width: 100%;
     min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex(column, center, center);
 
     background: url("assets/img/background.png") repeat;
-}*/
+}

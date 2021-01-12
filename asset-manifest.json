@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/future-app/static/css/main.3eca0561.chunk.css",
+    "main.css": "/future-app/static/css/main.70ea1d09.chunk.css",
     "main.js": "/future-app/static/js/main.96e61604.chunk.js",
     "main.js.map": "/future-app/static/js/main.96e61604.chunk.js.map",
     "runtime-main.js": "/future-app/static/js/runtime-main.d3b2a329.js",
@@ -10,17 +10,17 @@
     "static/js/3.2c839274.chunk.js": "/future-app/static/js/3.2c839274.chunk.js",
     "static/js/3.2c839274.chunk.js.map": "/future-app/static/js/3.2c839274.chunk.js.map",
     "index.html": "/future-app/index.html",
-    "static/css/main.3eca0561.chunk.css.map": "/future-app/static/css/main.3eca0561.chunk.css.map",
+    "static/css/main.70ea1d09.chunk.css.map": "/future-app/static/css/main.70ea1d09.chunk.css.map",
     "static/js/2.15863988.chunk.js.LICENSE.txt": "/future-app/static/js/2.15863988.chunk.js.LICENSE.txt",
     "static/media/arrow.cab3b3c1.svg": "/future-app/static/media/arrow.cab3b3c1.svg",
-    "static/media/app.module.scss": "/future-app/static/media/background.71104405.png",
+    "static/media/app.module.scss": "/future-app/static/media/background.41e612e1.png",
     "static/media/plus.6ae41f57.svg": "/future-app/static/media/plus.6ae41f57.svg",
     "static/media/search.85c7305c.svg": "/future-app/static/media/search.85c7305c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3b2a329.js",
     "static/js/2.15863988.chunk.js",
-    "static/css/main.3eca0561.chunk.css",
+    "static/css/main.70ea1d09.chunk.css",
     "static/js/main.96e61604.chunk.js"
   ]
 }

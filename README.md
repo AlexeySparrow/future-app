@@ -7,4 +7,4 @@
 - Данные в таблицу загружаются с сервера
 - Добавление новой строки (появляется в начале таблицы)
 
-### https://alexeysparrow.github.io/future-app/
+### https://alexeysparrow.github.io/future_app_React/
